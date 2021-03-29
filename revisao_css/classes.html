@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Classes e IDs</title>
+<meta charset="utf-8">
+
+		<a href="index_inline.html">Estilo Inline</a><br>
+		<a href="seletores.html">Seletores</a><br>
+		<a href="classes.html">Classes e IDs</a><br>
+
+
+		<style type="text/css">
+			
+			.azul {
+				color: blue;
+			}
+			.verde {
+				color: green;
+			}
+
+			#principal {
+				background: #DCDCDC;
+			}
+
+		</style>
+
+
+</head>
+
+
+<body id="principal">
+
+	<p>
+		Os IDs são identificadores de itens que existem dentro da estrutura HTML.
+
+	</p>
+		<b>Exemplo:</b>
+			<p><img src="imagens/captura6.png"></p>
+	<hr>
+	<hr>
+	<p>
+		As classes são diferentes pois podem ser chamadas mais de uma vez dentro da estrutura com a mesma formatação.
+	</p>
+
+	<b>Veja a imagem a seguir:</b>
+		<p><img src="imagens/captura7.png"></p><br>
+	Veja outros exemplos práticos:
+	<hr>
+	<h1>
+		Aqui vamos implementar classes e identificadores para formatar vários elementos de uma só vez:<br>
+	</h1>
+	<hr>
+
+	<h1 class="azul">
+		<p>
+			1 - Lorem ipsum dolor sit amet
+		</p>
+	</h1>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel nulla quis dui elementum condimentum quis eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+		<p class="verde">
+			Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+	<h1 class="azul">
+		<p>
+			2 - Lorem ipsum dolor sit amet
+		</p>
+	</h1>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel nulla quis dui elementum condimentum quis eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+
+		<p class="verde">
+			Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+
+	<h1 class="azul">
+		<p>
+			3 - Lorem ipsum dolor sit amet
+		</p>
+	</h1>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel nulla quis dui elementum condimentum quis eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+		<p class="verde">
+			Cras vehicula nibh at convallis iaculis. Phasellus nec massa in dolor fringilla posuere vel vel odio. Etiam vulputate porta neque.
+		</p>
+
+<hr><br><hr><br>
+Vamos ver ás tags e classes ultilizadas para a formatação de todos os títulos de uma so vez:
+<br><br>
+
+<b>1° --> CRIA-SE UMA CLASE COM SEUS ATRIBUTOS QUE SERÃO USADOS NAS FORMATAÇÕES: </b>
+<p><img src="imagens/captura8.png"></p><br>
+
+<b>1° --> DEPOIS CHAMA A CHASSE DENTRO DOS TÍTULOS QUE SERÃO FORMATADOS COM ESSES ATRIBUTOS:</b>
+<p><img src="imagens/captura9.png"></p><br>
+
+<p>O mesmo faremos com os parágrafos e suas formatações:</p><br>
+<b>1° CRIAMOS A CLASSE COM SEUS ATRIBUTOS:</b>
+<p><img src="imagens/captura10.png"></p><br>
+
+<b>2° DEPOIS APLICAMOS A CLASSE NAS tags QUE QUEREMOS ESSA FORMATAÇÃO:</b>
+<p><img src="imagens/captura11.png"></p><br>
+<hr>
+
+<b>E assim fica formatado nosso texto. Dessa forma eu consigo escolher qual formatação usar e onde usar.</b>
+<p><img src="imagens/captura12.png"></p><br>
+
+<hr>
+
+	<h1>SOBRE IDs</h1>
+	<p>IDs são seletores que formatam a página como se fossem padrão, por exemplo:
+	</p>
+	<b>Se a sua página tem várias páginas e eles obedecem um padrão de formatação, deve ultilizar então um IDs.</b>
+	<b>1° DECLARA OS ATRUBUTOS EM UM ID QUE É IDENTIFICADO PELA CERQUILHA "#".</b>
+	<p><img src="imagens/captura13.png"></p><br>
+	<B>2° DEPOIS CHAMA ESSE ID NO BODY DO CÓDIGO HTML EM CADA PÁGINA FEITA DO PROJETO PARA QUE TODAS PERMANEÇAM PADRONIZADOS CONFORME SUA CONFIGURAÇÃO.</B>
+	<p><img src="imagens/captura14.png"></p><br>
+<h2>LEMBRE-SE: O ID PARA FORMATAÇÃO ÚNICA DE PÁGINA DEVE SE USAR O ID E NÃO AS CLASSES, POIS AS CLASSES PODEM SER CHAMADAS VÁRIAS VEZES DURANTE A CRIAÇÃO DO CÓDIGO HTML. O ID TAMBÉM PODE SER CHAMADO PARA CABEÇALHO DE SITE E DE CORPO TAMBÉM. NO CASO QUE USAMOS AQUI CHAMAMOS O ID SOMENTE PARA O BODY.</h2>
+
+<hr>
+<br>
+<hr>
+
+<h1>Usando uma "DIV"</h1>
+<P><img src="imagens/captura15.png"></P>
+<p><b>Observe a imagem acima... Cada parte dela corresponde a uma parte da página HTML então pra ter configurações padões é o certo chamar a tag "div" para colocar os valores, e depois cria se uma "classe" para formatá-la. </b></p>
+<br>
+<P><img src="imagens/captura16.png"></P>
+
+	<div>
+		<div class="coluna">
+			Coluna 1
+		</div>
+		<div class="coluna">
+			Coluna 2
+		</div>
+		<div class="coluna">
+			Coluna 3
+		</div>
+	</div>
+<br>
+<b>Dessa forma eu consigo formatar tudo de uma vez chamando as classes que forem declaradas anteriormente ;)</b>
+
+
+
+
+
+
+</body>
+
+</html>
